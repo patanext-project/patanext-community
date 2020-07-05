@@ -12,21 +12,21 @@ caseSensitive: false
 
 # Explicit keyword mappings to labels. Form of match:label. Required.
 labelMappings:
-  "[SUGGESTION]": suggestion
-  "[CONCEPT]": has concept
-  "[OTHER]": other
-  "[EQUIPMENT]": equipment
-  "[MISSIONS]": missions
-  "[MISSION]": missions
-  "[STORY]": story
-  "[LORE]": story
-  "[MUSIC]": music
-  "[OST]": music
-  "[SOUNDS]": sounds fx
-  "[SOUNDS FX]": sounds fx
-  "[CLASS]": classes & units
-  "[CLASSES]": classes & units
-  "[CLASSES AND UNITS]": classes & units
-  "[CLASSES & UNITS]": classes & units
-  "[UNIT]": classes & units
-  "[UNITS]": classes & units
+    "[SUGGESTION]": suggestion
+    "[CONCEPT]": has concept
+    "[OTHER]": other
+    "[EQUIPMENT]": equipment
+    "[MISSIONS]": missions
+    "[MISSION]": missions
+    "[STORY]": story
+    "[LORE]": story
+    "[MUSIC]": music
+    "[OST]": music
+    "[SOUNDS]": sounds fx
+    "[SOUNDS FX]": sounds fx
+    "[CLASS]": classes & units
+    "[CLASSES]": classes & units
+    "[CLASSES AND UNITS]": classes & units
+    "[CLASSES & UNITS]": classes & units
+    "[UNIT]": classes & units
+    "[UNITS]": classes & units
