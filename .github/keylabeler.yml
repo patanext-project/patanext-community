@@ -30,4 +30,3 @@ labelMappings:
   "[CLASSES & UNITS]": classes & units
   "[UNIT]": classes & units
   "[UNITS]": classes & units
-  hooks: documentation
