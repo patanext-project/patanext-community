@@ -22,3 +22,4 @@ jobs:
               {"keywords": ["[sounds]", "[sounds fx]"], "labels": ["sounds fx"]},
               {"keywords": ["[class]", "[classes]", "[unit]", "[units]", "[classes and units]", "[classes & units]"], "labels": ["classes & units"]}
             ]
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
