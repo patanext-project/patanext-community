@@ -1,26 +1,24 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+name: "Set Issue Label and Assignee"
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  issues:
+    types: [opened]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  test:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-
-    - name: Auto Labeling
-      uses: harupy/auto-labeling@v0.0.2
+      - uses: Naturalclar/issue-action@v2.0.0
+        with:
+          title-or-body: "both"
+          parameters: >
+            [ 
+              {"keywords": ["[suggestion]"], "labels": ["suggestion"]},
+              {"keywords": ["[concept]"], "labels": ["concept"]},
+              {"keywords": ["[other]"], "labels": ["other"]},
+              {"keywords": ["[equipment]", "[equipments]"], "labels": ["equipment"]},
+              {"keywords": ["[mission]", "[missions]"], "labels": ["missions"]},
+              {"keywords": ["[story]", "[lore]"], "labels": ["story"]},
+              {"keywords": ["[music]", "[ost]"], "labels": ["music"]},
+              {"keywords": ["[sounds]", "[sounds fx]"], "labels": ["sounds fx"]},
+              {"keywords": ["[class]", "[classes]", "[unit]", "[units]", "[classes and units]", "[classes & units]"], "labels": ["classes & units"]}
+            ]
