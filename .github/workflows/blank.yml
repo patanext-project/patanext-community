@@ -7,7 +7,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: Naturalclar/issue-action@v2.0.0
+      - uses: Naturalclar/issue-action@v2.0.1
         with:
           title-or-body: "both"
           parameters: >
@@ -23,3 +23,5 @@ jobs:
               {"keywords": ["[class]", "[classes]", "[unit]", "[units]", "[classes and units]", "[classes & units]"], "labels": ["classes & units"]}
             ]
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+
+
