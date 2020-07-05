@@ -15,7 +15,7 @@ jobs:
               {"keywords": ["[suggestion]"], "labels": ["suggestion"]},
               {"keywords": ["[concept]"], "labels": ["concept"]},
               {"keywords": ["[other]"], "labels": ["other"]},
-              {"keywords": ["[rarepon]"], "labels": ["rarepon"]},:  
+              {"keywords": ["[rarepon]"], "labels": ["rarepon"]},
               {"keywords": ["[equipment]", "[equipments]"], "labels": ["equipment"]},
               {"keywords": ["[mission]", "[missions]"], "labels": ["missions"]},
               {"keywords": ["[story]", "[lore]"], "labels": ["story"]},
