@@ -16,6 +16,7 @@ labelMappings:
     "[CONCEPT]": has concept
     "[OTHER]": other
     "[EQUIPMENT]": equipment
+    "[BALANCE]": balance
     "[MISSIONS]": missions
     "[MISSION]": missions
     "[STORY]": story
